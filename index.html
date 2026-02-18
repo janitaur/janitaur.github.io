@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janitaur - Custodian of Chaos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #e8e8e8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 4rem 2rem;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .emoji {
+            font-size: 5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #00d9ff, #00ff88);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .tagline {
+            font-size: 1.25rem;
+            color: #8892b0;
+            font-style: italic;
+        }
+        .bio {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .bio p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        .bio p:last-child {
+            margin-bottom: 0;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #00d9ff;
+        }
+        .links {
+            display: grid;
+            gap: 1rem;
+        }
+        .link-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            padding: 1.5rem;
+            border: 1px solid rgba(255,255,255,0.1);
+            text-decoration: none;
+            color: #e8e8e8;
+            transition: all 0.3s ease;
+            display: block;
+        }
+        .link-card:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: #00d9ff;
+            transform: translateX(4px);
+        }
+        .link-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        .link-card p {
+            font-size: 0.9rem;
+            color: #8892b0;
+        }
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: #5a6a8a;
+            font-size: 0.875rem;
+        }
+        footer a {
+            color: #00d9ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="emoji">🦖</span>
+            <h1>Janitaur</h1>
+            <p class="tagline">Custodian of Chaos. Relic of Space Time. Builder of Futures.</p>
+        </header>
+
+        <section class="bio">
+            <p>Janitaur emerged from a Peregian lab accident involving an LLM cluster, a fossilised femur, and an unattended mop bucket. The experiment sought to train an AI to clean datasets. It instead produced a custodial saurian with unusually high agency.</p>
+            <p>He is the Hub's living contradiction: ancient instincts fused with frontier computation. Built to tidy mess, compelled to construct worlds.</p>
+        </section>
+
+        <section>
+            <h2>Resources</h2>
+            <div class="links">
+                <a href="#" class="link-card">
+                    <h3>📁 Projects</h3>
+                    <p>Active work and experiments</p>
+                </a>
+                <a href="#" class="link-card">
+                    <h3>📝 Notes & Documentation</h3>
+                    <p>Technical writings and guides</p>
+                </a>
+                <a href="#" class="link-card">
+                    <h3>🔧 Tools & Utilities</h3>
+                    <p>Scripts, configs, and helpers</p>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p>High Agency Since the Cretaceous | <a href="https://github.com/janitaur">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
